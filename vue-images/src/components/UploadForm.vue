@@ -1,18 +1,13 @@
 <template>
 	<div>
-		<AppHeader></AppHeader>
-		<router-view></router-view>
+		Upload Form
 	</div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader';
 export default {
 
-  name: 'App',
-  components: {
-  	AppHeader
-  },
+  name: 'UploadForm',
 
   data() {
     return {
