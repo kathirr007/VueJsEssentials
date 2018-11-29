@@ -1,26 +1,20 @@
 <template>
-	<div>
-		<AppHeader></AppHeader>
-		<router-view></router-view>
-	</div>
+  <div>
+    <AppHeader></AppHeader>
+
+    <div class="ui container">
+      <router-view></router-view>
+    </div>
+  </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader';
-export default {
 
+export default {
   name: 'App',
   components: {
-  	AppHeader
-  },
-
-  data() {
-    return {
-
-    };
-  },
+    AppHeader
+  }
 };
 </script>
-
-<style lang="css" scoped>
-</style>
